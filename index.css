@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Roboto Slab", "Carter One";
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #27292c;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000C36;
+    width: 65vh;
+    height: 100vh;
+    text-align: center;
+}
+
+.header-pane{
+    margin-bottom: 2em;
+}
+
+button {
+    border: 10px solid red;
+    background: #3B4877;
+    border: none;
+    border-radius: 0.3em;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    font-weight: 300;
+    padding: 0.4em 1em;
+    margin: 1em 0.5em 2.4em 0.5em;
+}
+
+form {
+    margin: 0 1em;
+}
+
+textarea, input, .submit-btn  {
+    display: block
+}   
+
+textarea {
+    resize: none;
+}
+
+/* Start View Page */
+
+h1 {
+    font-family: Carter One;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+}
+
+.content-pane {    
+}
+
+input, textarea {
+    font-family: Roboto Slab;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    background: #3B4877;
+    margin: 1em auto 2em auto;
+    border: none;
+    border-radius: 0.7em;
+    padding: 1.5em 0;
+    width: 90%;
+    text-align: center;
+}
+
+input::placeholder{
+    color: #000C36;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+.submit-btn {
+    color: #000C36;
+    margin: 1.1em auto;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 1.7rem;
+    background: #51E08A;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 4.5em;
+}
+
+.error-message{
+    color: crimson;
+    letter-spacing: 0.131em
+}
+
+/* Information View Page */
+
+.person-number{
+    font-family: Roboto Slab;
+    font-size: 2rem;
+}
+
+.focused {
+    background-color: #87ceeb; /* Example of a focus style */
+}
+
+
+/* Reccomendations View Page */
+
+.movie-img {
+    width: 60%;
+    border: 3px solid whitesmoke;
+}
+
+.movie-detials {
+    font-size: 1rem;
+    margin: 2em 3em 0em 3em; 
+}
+
+.loading-message{
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
